@@ -1,0 +1,15 @@
+name: LightLore
+main: com.gmail.mcdlutze.lightlore.Main
+version: 1.0.11
+author: Matt
+description: A lighter version of the Itemizer Plugin
+commands:
+   lore:
+      description: Apply changes to the lore on an item.
+      usage: /lore help
+      permission: LightLore.editor
+      permission-message: You don't have permission to edit lore.
+permissions:
+   LightLore.editor:
+      description: Allows editing the lore on an item.
+      default: op 
